@@ -1,0 +1,21 @@
+.gradle
+.DS_Store
+*.class
+*.apk
+*.ap_
+*.dex
+build/
+.idea/
+
+# intellij files
+*.iml
+*.iws
+*.ipr
+*.swp
+local.properties
+.classpath
+.project
+.navigation
+crashlytics.properties
+crashlytics-build.properties
+com_crashlytics_export_strings.xml
