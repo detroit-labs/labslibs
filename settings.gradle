@@ -1,1 +1,1 @@
-include ':app', ':whosiewhatsits'
+include ':whosiewhatsits', ':feedback-sample', ':feedback-map-plugin', ':feedback'
