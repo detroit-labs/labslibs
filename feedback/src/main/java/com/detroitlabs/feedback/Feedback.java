@@ -3,7 +3,6 @@ package com.detroitlabs.feedback;
 import android.app.Activity;
 import android.app.Application;
 import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.support.annotation.DrawableRes;
@@ -52,7 +51,6 @@ public class Feedback {
 
     /**
      * Can only be called after activity has been resumed.
-     *
      */
     public static void sendFeedbackNow(Activity activity){
         Intent intent = new Intent(ACTION_FEEDBACK);

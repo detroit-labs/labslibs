@@ -14,6 +14,14 @@ import java.io.IOException;
  */
 public class FileHelper {
 
+    /**
+     * Store a bitmap as a JPEG in the Pictures directory of the application.
+     *
+     * @param context used to get the external file directory
+     * @param filename of the jpeg being saved
+     * @param bitmap the actual bitmap that will be saved to file
+     * @return {@link File} of the saved jpeg or null if IOException is thrown while saving the bitmap.
+     */
     @Nullable
     public static File bitmapToFile(Context context, String filename, Bitmap bitmap) {
         try {
